@@ -1,0 +1,42 @@
+{
+    "useTabs": false,
+    "tabWidth": 4,
+      "overrides": [
+        {
+          "files": ["*.test.ts", "*.specpartial.ts"],
+          "options": {
+            "semi": true,
+            "singleQuote": true,
+            "quoteProps": "consistent",
+            "bracketSpacing": true,
+            "printWidth": 80,
+            "arrowParens": "avoid"
+          }
+        },
+        {
+          "files": ["*.js"],
+          "options": {
+            "semi": true,
+            "singleQuote": true,
+            "quoteProps": "consistent",
+            "bracketSpacing": true,
+            "printWidth": 100,
+            "trailingComma": "es5",
+            "arrowParens": "avoid"
+          }
+        },
+        {
+          "files": ["*.tsx"],
+          "options": {
+            "semi": true,
+            "quoteProps": "consistent",
+            "bracketSpacing": true,
+            "jsxBracketSameLine": false,
+            "printWidth": 100,
+            "jsxSingleQuote": false,
+            "trailingComma": "es5",
+            "arrowParens": "avoid"
+          }
+        }
+      ]
+    }

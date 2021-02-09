@@ -105,3 +105,13 @@ const account = {
         return totalAmount;
     },
 };
+
+account.deposit(228);
+account.deposit(229);
+account.deposit(230);
+account.deposit(1337);
+account.withdraw(1500);
+
+console.log(account.getBalance());
+
+console.log(account.transactions);
